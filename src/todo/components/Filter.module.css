@@ -1,0 +1,41 @@
+.filter {
+  position: relative;
+  padding: 10px;
+  background: rgb(5, 100, 140);
+  border-radius: 50px;
+  margin-bottom: 15px;
+  height: 35px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.label {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.label:last-child {
+  margin-right: 0;
+}
+
+.input {
+  display: none;
+}
+
+.text {
+  color: rgb(255, 255, 255, 0.3);
+}
+
+.label input:checked ~ .text {
+  color: #fff;
+}
+
+.counter {
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+}

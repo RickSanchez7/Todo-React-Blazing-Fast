@@ -1,0 +1,42 @@
+.add {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.input {
+  background: rgb(5, 100, 140);
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 50px;
+  color: #fff;
+  border: none;
+  width: 100%;
+  border: 1px solid transparent;
+  padding-right: 60px;
+}
+
+.input:focus {
+  outline: none;
+  border: 1px solid #eee;
+}
+
+input::-webkit-input-placeholder {
+  color: #eee;
+}
+
+.button {
+  position: absolute;
+  background: rgb(5, 100, 140);
+  box-sizing: border-box;
+  border: 1px solid #eee;
+  color: #eee;
+  padding: 5px 10px;
+  border-radius: 50px;
+  right: 5px;
+}
+
+.counter {
+  position: absolute;
+  top: -5px;
+  left: -5px;
+}
